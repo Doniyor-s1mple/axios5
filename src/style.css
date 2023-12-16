@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    user-select: none;
+}
+
+.card {
+    cursor: grab;
+    margin-top: 1px;
+    transition: .4s;
+    width: 300px;
+    height: 330px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    background: transparent;
+
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 15px 155px 15px gray;
+    transform: scale(1.09);
+}
